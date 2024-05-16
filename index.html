@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bloom</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="brand">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="logo.png">
+                        <div class="logo-text">
+                            <p class="big-logo">Bloom</p>
+                            <p class="small-logo">Flower Delivery</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="shop-icon">
+                    <div class="dropdown">
+                        <img src="account.png">
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="account.html">My Account</a></li>
+                                <li><a href="orders.html">My Orders</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <img src="images.png">
+                        <div class="dropdown-menu wishlist-item">
+                            <table border="1">
+                                <thead>
+                                    <tr>
+                                        <th>Image</th>
+                                        <th>Product Name</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="redroses.jpg"></td>
+                                        <td>Red Roses</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="carnation.jpg"></td>
+                                        <td>Pink Carnations</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <img src="cart.png">
+                        <div class="dropdown-menu cart-item">
+                            <table border="1">
+                                <thead>
+                                    <tr>
+                                        <th>Image</th>
+                                        <th>Product Name</th>
+                                        <th class="center">Price</th>
+                                        <th class="center">Qty.</th>
+                                        <th class="center">Amount</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="redroses.jpg"></td>
+                                        <td>Red Roses</td>
+                                        <td class="center">$29.99</td>
+                                        <td class="center">2</td>
+                                        <td class="center">$59.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="carnarion.jpg"></td>
+                                        <td>Pink Carnations</td>
+                                        <td class="center">$24.99</td>
+                                        <td class="center">1</td>
+                                        <td class="center">$24.99</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-bar">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#about">ABOUT US</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="admin/login.php">SIGN IN</a></li>
+                    </ul>
+                </div>
+                <div class="search-bar">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="search" placeholder="Search">
+                            <img src="search.png">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <main>
+            <div class="hero">
+                <div class="hero-contents">
+                    <video controls align="left" autoplay muted>
+                        <source src="video.mp4" type="video/mp4"/>
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="hero-text">
+                        <h1>Express Your Feelings with Beautiful Bouquets</h1>
+                        <h2>Order Now and Make Someone's Day Special</h2>
+                        <a href="market.html">Shop Now</a>
+                        <a href="register.html">Register</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="about">
+                <h3 class="main_title">ABOUT US</h3>
+                <div class="container">
+                    <div class="about-img">
+                        <img src="about.png" alt="about" usemap="#image-map"/>
+                        <map name="image-map">
+                            <area target="" alt="rose" title="rose" href="market.html" coords="293,452,91" shape="circle"/>
+                            <area target="" alt="carnation" title="carnation" href="market.html" coords="476,378,81" shape="circle"/>
+                            <area target="" alt="tulip" title="tulip" href="market.html" coords="114,341,91" shape="circle"/>
+                            <area target="" alt="daisy" title="daisy" href="market.html" coords="225,136,113" shape="circle"/>
+                        </map>
+                    </div>
+
+                    <div class="about-section">
+                        <p class="about-description">
+                            At Bloom Flower Delivery, we understand the power of flowers to convey emotions and create memorable experiences. We are dedicated to providing exquisite bouquets and arrangements for all occasions. Our expert florists carefully handpick the freshest flowers and arrange them with artistic flair to ensure every bouquet is a masterpiece. With our reliable delivery service, you can send your heartfelt wishes and make someone's day truly special.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="services">
+                <h3 class="main_title">OUR SERVICES</h3>
+                <div class="service-container">
+                    <div class="service">
+                        <img src="box2.png" alt="Customize">
+                        <h4>Customize Your Bouquet</h4>
+                        <p>Create a personalized bouquet by choosing your favorite flowers and arrangement style.</p>
+                    </div>
+                    <div class="service">
+                        <img src="3.png" alt="Same-Day Delivery">
+                        <h4>Same-Day Delivery</h4>
+                        <p>Get your bouquet delivered to your desired location on the same day of ordering.</p>
+                    </div>
+                    <div class="service">
+                        <img src="box1.png" alt="Occasion Specials">
+                        <h4>Occasion Specials</h4>
+                        <p>Discover our specially curated bouquets for various occasions and celebrations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="products">
+                <h3 class="main_title">OUR BOUQUETS</h3>
+                <div class="product-container">
+                    <div class="product">
+                        <img src="rosegarden.jpg" alt="Bouquet 1">
+                        <h4>Rose Garden</h4>
+                        <p class="price">RS.2999</p>
+                        <a href="market.html" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="product">
+                        <img src="tulipdeligh.jpg" alt="Bouquet 2">
+                        <h4>Tulip Delight</h4>
+                        <p class="price">Rs.1999</p>
+                        <a href="market.html" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="product">
+                        <img src="sunflower.jpg" alt="Bouquet 3">
+                        <h4>Sunflower Surprise</h4>
+                        <p class="price">Rs.2099</p>
+                        <a href="market.html" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact">
+                <h3 class="main_title">CONTACT US</h3>
+                <div class="contact-box">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-widget">
+                <div class="widget">
+                    <div class="widget-heading">
+                        <h3>Important Links</h3>
+                    </div>
+                    <div class="widget-content">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget-heading">
+                        <h3>Follow Us</h3>
+                    </div>
+                    <div class="widget-content">
+                        <div class="follow">
+                            <ul>
+                                <li><a href="https://facebook.com"><img src="fb.png"></a></li>
+                                <li><a href="https://twitter.com"><img src="twitter.png"></a></li>
+                                <li><a href="https://instagram.com"><img src="ig.png"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget-heading">
+                        <h3>Subscribe to Our Newsletter</h3>
+                    </div>
+                    <div class="widget-content">
+                        <div class="subscribe">
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" placeholder="Your email" required>
+                                    <button type="submit" class="btn">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bar">
+                <p>&copy; 2023 Bloom Flower Delivery. All rights reserved. | Developed by lost_inline</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
